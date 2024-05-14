@@ -50,7 +50,7 @@ neo4j_connection = Neo4jDatabase(
 
 # Initialize LLM modules
 openai_api_key = os.environ.get("OPENAI_API_KEY", None)
-
+openai_base_url = os.environ.get("OPENAI_BASE_URL", None)
 
 # Define FastAPI endpoint
 app = FastAPI()
